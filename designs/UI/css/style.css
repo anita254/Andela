@@ -1,4 +1,3 @@
-@import 'https://fonts.googleapis.com/css?family=Fira+Sans';
 * {
   box-sizing: border-box;
 }
@@ -14,7 +13,7 @@ html, body {
 
 body {
   font-family: "Fira Sans", sans-serif;
-  background-image: url(http://static.boredpanda.com/blog/wp-content/uploads/2015/04/night-sky-stars-milky-way-photography-22__880.jpg);
+  background-image: url(night-sky-stars-milky-way-photography-22__880.jpg);
   background-size: cover;
   background-position: left tom;
   background-repeat: no-repeat;
