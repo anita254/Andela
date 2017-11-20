@@ -38,9 +38,8 @@ body:after {
   position: relative;
   z-index: 2;
   overflow: hidden;
-  /**************************************************** */
-  /********************* LOGIN FORM ******************* */
-  /**************************************************** */
+  
+  /*LOGIN FORM*/
 }
 .wrapper .login, .wrapper .register {
   padding-top: 50px;
@@ -240,58 +239,3 @@ body:after {
   transition: all 600ms ease-in-out 2200ms;
 }
 
-@media screen and (max-width: 480px) {
-  .wrapper .login .profile {
-    height: 80px;
-    width: 80px;
-    margin-bottom: 40px;
-  }
-}
-@-webkit-keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes move-top {
-  0% {
-    top: calc(100vh - 30px);
-  }
-  100% {
-    top: 20px;
-  }
-}
-@keyframes move-top {
-  0% {
-    top: calc(100vh - 30px);
-  }
-  100% {
-    top: 20px;
-  }
-}
-@-webkit-keyframes move-bottom {
-  0% {
-    top: 20px;
-  }
-  100% {
-    top: calc(100vh - 30px);
-  }
-}
-@keyframes move-bottom {
-  0% {
-    top: 20px;
-  }
-  100% {
-    top: calc(100vh - 30px);
-  }
-}
